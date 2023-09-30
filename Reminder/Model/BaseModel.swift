@@ -14,10 +14,13 @@ protocol BaseModel {
     
 }
 extension BaseModel where Self : NSManagedObject {
+    
     static var viewContext : NSManagedObjectContext {
+        
         CoreDataManager.shared.persistentContainer.viewContext
     }
     func save () throws {
+        
         try Self.viewContext.save()
     }
 }
