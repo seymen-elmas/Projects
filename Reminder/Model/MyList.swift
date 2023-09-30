@@ -2,7 +2,7 @@
 //  MyList.swift
 //  Reminder
 //
-//  Created by Seymen Nadir Elmas on 28.09.2023.
+//  Created by Seymen Nadir Elmas .
 //
 
 import Foundation
