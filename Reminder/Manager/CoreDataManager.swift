@@ -13,6 +13,7 @@ class CoreDataManager{
     let persistentContainer : NSPersistentContainer
     static let shared = CoreDataManager()
     private init(){
+        ValueTransformer.setValueTransformer(UIColorTransformer(), forName: NSValueTransformerName("UIColorTransformer"))
         persistentContainer = NSPersistentContainer(name: "ReminderModel")
         persistentContainer.loadPersistentStores{ description, error in
             if let error = error {
