@@ -47,4 +47,13 @@ class PlaceAnnotation: NSObject, MKAnnotation, Identifiable {
         mapItem.placemark.locality ?? ""
     }
     
+    func getDistance(userLocation: CLLocation? )-> Double? {
+        guard let placeLocation = mapItem.placemark.location,
+              let userLocation = userLocation else {
+                  return nil
+        }
+        
+        return userLocation.distance(from: placeLocation)
+    }
+    
 }
