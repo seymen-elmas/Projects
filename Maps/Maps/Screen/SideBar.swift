@@ -8,15 +8,23 @@
 import SwiftUI
 
 struct SideBar: View {
-    @State private var search :String = ""
+    
+    private var vm = SearchResultsViewModel()
+    @State private var search: String = ""
+    @EnvironmentObject var appState: AppState
+    
     var body: some View {
-        VStack{
-            List(1...10,id: \.self){lis in
-                Text("Search Result \(lis)")
-            }
-            
-        }.searchable(text: $search,placement: .sidebar, prompt: "Search Maps")
-        
+        VStack {
+            SearchResultList(places: appState.places)
+        }.searchable(text: $search, placement: .sidebar, prompt: "Search Maps")
+            .onChange(of: search, perform: { value in
+                
+                vm.search(text: value) { places in
+                    appState.places = places
+                }
+               
+            })
+            .padding()
     }
 }
 
