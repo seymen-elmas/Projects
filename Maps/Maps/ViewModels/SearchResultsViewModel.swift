@@ -16,6 +16,7 @@ class SearchResultsViewModel {
     func search(text: String, completion: @escaping ([PlaceAnnotation]) -> Void) {
         
         if text.count < 4 {
+            completion([])
             return
         }
         
@@ -28,6 +29,7 @@ class SearchResultsViewModel {
             
             guard let response = response, error == nil else {
                 print("Error: \(error?.localizedDescription ?? "Unknown error")")
+                completion([])
                 return
             }
             

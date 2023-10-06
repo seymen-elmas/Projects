@@ -9,11 +9,25 @@ import SwiftUI
 struct SearchResultList: View {
     
     let places: [PlaceAnnotation]
+    var onSelect: (PlaceAnnotation) -> Void
+    
     @StateObject private var locationManager = LocationManager()
+    @AppStorage("distanceUnit") var distanceUnit: DistanceUnit = .miles
+    
+    private var distanceFormatter = DistanceFormatter()
+    
+    init(places: [PlaceAnnotation], onSelect: @escaping (PlaceAnnotation) -> Void) {
+        self.places = places
+        self.onSelect = onSelect
+    }
     
     func formatDistance(for place: PlaceAnnotation) -> String {
-        let distanceInMeters = place.getDistance(userLocation: locationManager.location)
-        return distanceInMeters != nil ? "\(String(describing: distanceInMeters!))" : ""
+        
+        guard let distanceInMeters = place.getDistance(userLocation: locationManager.location) else { return "" }
+        print(distanceInMeters)
+        
+        distanceFormatter.unitOptions = distanceUnit
+        return distanceFormatter.format(distanceInMeters: distanceInMeters)
     }
     
     var body: some View {
@@ -25,12 +39,16 @@ struct SearchResultList: View {
                     .font(.caption)
                     .opacity(0.4)
             }
+            .contentShape(Rectangle())
+            .onTapGesture {
+                onSelect(place)
+            }
         }
     }
 }
 
 struct SearchResultList_Previews: PreviewProvider {
     static var previews: some View {
-        SearchResultList(places: [])
+        SearchResultList(places: [], onSelect: { _ in })
     }
 }
