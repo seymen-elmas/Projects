@@ -13,7 +13,7 @@ struct Stock: Decodable {
     let description: String
     let price: Double
     let change: String
-    let historicalPrices: [Double]
+    
     
 }
 

@@ -11,3 +11,4 @@ class AppState: ObservableObject {
     @Published var stocks: [StockViewModel] = []
 }
 
+
