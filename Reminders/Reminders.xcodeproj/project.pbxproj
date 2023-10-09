@@ -23,7 +23,21 @@
 		2B1003092ACD99E70000AC5C /* MyListsViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1003082ACD99E70000AC5C /* MyListsViewModels.swift */; };
 		2B10030B2ACD9B590000AC5C /* MyListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B10030A2ACD9B590000AC5C /* MyListsView.swift */; };
 		2B10030D2ACD9B800000AC5C /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B10030C2ACD9B800000AC5C /* AddNewListView.swift */; };
-		2B10030F2ACD9BA80000AC5C /* ColorListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B10030E2ACD9BA80000AC5C /* ColorListsView.swift */; };
+		2B10030F2ACD9BA80000AC5C /* ColorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B10030E2ACD9BA80000AC5C /* ColorListView.swift */; };
+		2B5495D62AD3B8E100F83288 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5495D52AD3B8E100F83288 /* Date+Extensions.swift */; };
+		2B5495D82AD3B92F00F83288 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5495D72AD3B92F00F83288 /* Delay.swift */; };
+		2B5495DA2AD3BA5B00F83288 /* MyListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5495D92AD3BA5B00F83288 /* MyListItemViewModel.swift */; };
+		2B5495DC2AD3BA9600F83288 /* EditListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5495DB2AD3BA9600F83288 /* EditListItemViewModel.swift */; };
+		2B5495DE2AD3BB2B00F83288 /* MyListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5495DD2AD3BB2B00F83288 /* MyListItem.swift */; };
+		2B5495E02AD3BB6900F83288 /* DueDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5495DF2AD3BB6900F83288 /* DueDate.swift */; };
+		2B5495E22AD3BFB600F83288 /* MyListItemsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5495E12AD3BFB600F83288 /* MyListItemsHeaderView.swift */; };
+		2B5495E42AD3C00A00F83288 /* MyListItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5495E32AD3C00A00F83288 /* MyListItemsView.swift */; };
+		2B5495E62AD3C06000F83288 /* AddNewListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5495E52AD3C06000F83288 /* AddNewListItemView.swift */; };
+		2B5495E82AD3C0BC00F83288 /* DueDateSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5495E72AD3C0BC00F83288 /* DueDateSelectionView.swift */; };
+		2B5495EA2AD3C13300F83288 /* ListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5495E92AD3C13300F83288 /* ListItemCell.swift */; };
+		2B5495EC2AD3C17300F83288 /* EditListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5495EB2AD3C17300F83288 /* EditListItemView.swift */; };
+		2B5495EE2AD3C1B300F83288 /* CalendarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5495ED2AD3C1B300F83288 /* CalendarButtonView.swift */; };
+		2B5495F02AD3C21600F83288 /* AllCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5495EF2AD3C21600F83288 /* AllCountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +59,21 @@
 		2B1003082ACD99E70000AC5C /* MyListsViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListsViewModels.swift; sourceTree = "<group>"; };
 		2B10030A2ACD9B590000AC5C /* MyListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListsView.swift; sourceTree = "<group>"; };
 		2B10030C2ACD9B800000AC5C /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
-		2B10030E2ACD9BA80000AC5C /* ColorListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListsView.swift; sourceTree = "<group>"; };
+		2B10030E2ACD9BA80000AC5C /* ColorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListView.swift; sourceTree = "<group>"; };
+		2B5495D52AD3B8E100F83288 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		2B5495D72AD3B92F00F83288 /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		2B5495D92AD3BA5B00F83288 /* MyListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItemViewModel.swift; sourceTree = "<group>"; };
+		2B5495DB2AD3BA9600F83288 /* EditListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListItemViewModel.swift; sourceTree = "<group>"; };
+		2B5495DD2AD3BB2B00F83288 /* MyListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItem.swift; sourceTree = "<group>"; };
+		2B5495DF2AD3BB6900F83288 /* DueDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueDate.swift; sourceTree = "<group>"; };
+		2B5495E12AD3BFB600F83288 /* MyListItemsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItemsHeaderView.swift; sourceTree = "<group>"; };
+		2B5495E32AD3C00A00F83288 /* MyListItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItemsView.swift; sourceTree = "<group>"; };
+		2B5495E52AD3C06000F83288 /* AddNewListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListItemView.swift; sourceTree = "<group>"; };
+		2B5495E72AD3C0BC00F83288 /* DueDateSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueDateSelectionView.swift; sourceTree = "<group>"; };
+		2B5495E92AD3C13300F83288 /* ListItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemCell.swift; sourceTree = "<group>"; };
+		2B5495EB2AD3C17300F83288 /* EditListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListItemView.swift; sourceTree = "<group>"; };
+		2B5495ED2AD3C1B300F83288 /* CalendarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarButtonView.swift; sourceTree = "<group>"; };
+		2B5495EF2AD3C21600F83288 /* AllCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +90,7 @@
 		2B1002D02ACD8FE70000AC5C = {
 			isa = PBXGroup;
 			children = (
+				2B5495D22AD3B88800F83288 /* Extensions */,
 				2B1003032ACD995F0000AC5C /* ViewModels */,
 				2B1002FE2ACD98DE0000AC5C /* Transformers */,
 				2B1002FD2ACD98BC0000AC5C /* Utils */,
@@ -116,7 +145,15 @@
 				2B1002F02ACD90670000AC5C /* SideBarView.swift */,
 				2B10030A2ACD9B590000AC5C /* MyListsView.swift */,
 				2B10030C2ACD9B800000AC5C /* AddNewListView.swift */,
-				2B10030E2ACD9BA80000AC5C /* ColorListsView.swift */,
+				2B10030E2ACD9BA80000AC5C /* ColorListView.swift */,
+				2B5495E12AD3BFB600F83288 /* MyListItemsHeaderView.swift */,
+				2B5495E32AD3C00A00F83288 /* MyListItemsView.swift */,
+				2B5495E52AD3C06000F83288 /* AddNewListItemView.swift */,
+				2B5495E72AD3C0BC00F83288 /* DueDateSelectionView.swift */,
+				2B5495E92AD3C13300F83288 /* ListItemCell.swift */,
+				2B5495EB2AD3C17300F83288 /* EditListItemView.swift */,
+				2B5495ED2AD3C1B300F83288 /* CalendarButtonView.swift */,
+				2B5495EF2AD3C21600F83288 /* AllCountView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -126,6 +163,8 @@
 			children = (
 				2B1002F72ACD92D40000AC5C /* MyList.swift */,
 				2B1002F92ACD93550000AC5C /* BaseModel.swift */,
+				2B5495DD2AD3BB2B00F83288 /* MyListItem.swift */,
+				2B5495DF2AD3BB6900F83288 /* DueDate.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -142,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				2B1003012ACD99290000AC5C /* Constants.swift */,
+				2B5495D72AD3B92F00F83288 /* Delay.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -160,8 +200,18 @@
 				2B1003042ACD99B60000AC5C /* MyListViewModel.swift */,
 				2B1003062ACD99D20000AC5C /* AddNewListViewModel.swift */,
 				2B1003082ACD99E70000AC5C /* MyListsViewModels.swift */,
+				2B5495D92AD3BA5B00F83288 /* MyListItemViewModel.swift */,
+				2B5495DB2AD3BA9600F83288 /* EditListItemViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2B5495D22AD3B88800F83288 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2B5495D52AD3B8E100F83288 /* Date+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,18 +285,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B1002FA2ACD93550000AC5C /* BaseModel.swift in Sources */,
+				2B5495E82AD3C0BC00F83288 /* DueDateSelectionView.swift in Sources */,
 				2B1002F12ACD90670000AC5C /* SideBarView.swift in Sources */,
-				2B10030F2ACD9BA80000AC5C /* ColorListsView.swift in Sources */,
+				2B10030F2ACD9BA80000AC5C /* ColorListView.swift in Sources */,
+				2B5495DA2AD3BA5B00F83288 /* MyListItemViewModel.swift in Sources */,
 				2B1002F52ACD91740000AC5C /* RemindersModel.xcdatamodeld in Sources */,
+				2B5495EA2AD3C13300F83288 /* ListItemCell.swift in Sources */,
 				2B1002DD2ACD8FE80000AC5C /* RemindersApp.swift in Sources */,
 				2B1002EE2ACD90230000AC5C /* HomeScreen.swift in Sources */,
 				2B1002FC2ACD94020000AC5C /* CoreDataManager.swift in Sources */,
+				2B5495E02AD3BB6900F83288 /* DueDate.swift in Sources */,
+				2B5495DE2AD3BB2B00F83288 /* MyListItem.swift in Sources */,
+				2B5495EE2AD3C1B300F83288 /* CalendarButtonView.swift in Sources */,
 				2B1003092ACD99E70000AC5C /* MyListsViewModels.swift in Sources */,
 				2B10030B2ACD9B590000AC5C /* MyListsView.swift in Sources */,
+				2B5495E62AD3C06000F83288 /* AddNewListItemView.swift in Sources */,
+				2B5495D62AD3B8E100F83288 /* Date+Extensions.swift in Sources */,
 				2B1003002ACD99060000AC5C /* NSColorTransformer.swift in Sources */,
+				2B5495E42AD3C00A00F83288 /* MyListItemsView.swift in Sources */,
 				2B1002F82ACD92D40000AC5C /* MyList.swift in Sources */,
+				2B5495EC2AD3C17300F83288 /* EditListItemView.swift in Sources */,
+				2B5495D82AD3B92F00F83288 /* Delay.swift in Sources */,
+				2B5495DC2AD3BA9600F83288 /* EditListItemViewModel.swift in Sources */,
 				2B1003052ACD99B60000AC5C /* MyListViewModel.swift in Sources */,
+				2B5495E22AD3BFB600F83288 /* MyListItemsHeaderView.swift in Sources */,
 				2B10030D2ACD9B800000AC5C /* AddNewListView.swift in Sources */,
+				2B5495F02AD3C21600F83288 /* AllCountView.swift in Sources */,
 				2B1003022ACD99290000AC5C /* Constants.swift in Sources */,
 				2B1003072ACD99D20000AC5C /* AddNewListViewModel.swift in Sources */,
 			);

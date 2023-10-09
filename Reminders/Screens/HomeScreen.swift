@@ -9,9 +9,10 @@ import SwiftUI
 
 struct HomeScreen: View {
     var body: some View {
-        NavigationView{
+        NavigationView {
             SideBarView()
-            Text("Liste")
+                .frame(minWidth: 200)
+            Text("MyListItems")
         }
     }
 }

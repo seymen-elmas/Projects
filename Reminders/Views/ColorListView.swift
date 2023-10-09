@@ -1,11 +1,9 @@
 //
-//  ColorListsView.swift
+//  ColorListView.swift
 //  Reminders
 //
 //  Created by Seymen Nadir Elmas on 4.10.2023.
 //
-
-import SwiftUI
 
 import SwiftUI
 

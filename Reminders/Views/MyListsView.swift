@@ -19,13 +19,26 @@ struct MyListsView: View {
         VStack(alignment: .leading, spacing: 0) {
             
             List {
+                AllCountView(count: vm.allListItemsCount)
                 Text("My Lists")
                 ForEach(vm.myLists) { myList in
-                    HStack {
-                        Image(systemName: Constants.Icons.line3HorizontalCircleFill)
-                            .font(.title)
-                            .foregroundColor(myList.color)
-                        Text(myList.name)
+                    
+                    NavigationLink {
+                        MyListItemsHeaderView(name: myList.name, count: myList.itemsCount, color: myList.color)
+                        
+                        MyListItemsView(items: myList.items, onItemAdded: { title, dueDue in
+                            vm.saveTo(list: myList, title: title, dueDate: dueDue)
+                        }, onItemDeleted: vm.deleteItem, onItemCompleted: vm.markAsCompleted)
+                        
+                    } label: {
+                        HStack {
+                            Image(systemName: Constants.Icons.line3HorizontalCircleFill)
+                                .font(.title)
+                                .foregroundColor(myList.color)
+                            Text(myList.name)
+                            Spacer()
+                            Text("\(myList.itemsCount)")
+                        }
                     }.contextMenu {
                         Button {
                             // action
@@ -48,4 +61,3 @@ struct MyListsView_Previews: PreviewProvider {
         MyListsView(vm: MyListsViewModel(context: context))
     }
 }
-
