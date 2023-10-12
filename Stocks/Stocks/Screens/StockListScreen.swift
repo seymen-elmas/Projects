@@ -45,6 +45,6 @@ struct StockListScreen: View {
 
 struct StockListScreen_Previews: PreviewProvider {
     static var previews: some View {
-        StockListScreen(vm: StockListViewModel(appState: AppState()))
+        StockListScreen(vm: StockListViewModel(stockState: StockState()))
     }
 }

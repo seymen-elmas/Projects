@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct StockViewModel: Identifiable {
+struct StockViewModel: Identifiable, Equatable {
     
     private var stock: Stock
     
@@ -32,10 +32,12 @@ struct StockViewModel: Identifiable {
     var change: String {
         stock.change
     }
+    
     var historicalPrices: [Double] {
         stock.historicalPrices
     }
     
-   
-    
+    static func == (lhs: StockViewModel, rhs: StockViewModel) -> Bool {
+        lhs.id == rhs.id
+    }
 }

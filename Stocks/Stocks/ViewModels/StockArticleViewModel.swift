@@ -4,7 +4,6 @@
 //
 //  Created by Seymen Nadir Elmas on 9.10.2023.
 //
-
 import Foundation
 
 struct StockArticleViewModel: Identifiable {
@@ -31,3 +30,4 @@ struct StockArticleViewModel: Identifiable {
     
     
 }
+

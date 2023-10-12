@@ -10,14 +10,21 @@ import SwiftUI
 struct StockListView: View {
     
     let stocks: [StockViewModel]
+    @EnvironmentObject private var routeState: RouteState
     
     var body: some View {
         List {
             
-            BusinessNewsHeaderView()
+            BusinessNewsHeaderView(onSelected: {
+                routeState.route = .businessArticles
+            })
             
             ForEach(stocks) { stock in
-                StockCellView(stock: stock)
+                StockCellView(stock: stock) { selectedStock in
+                    print(selectedStock)
+                    // set the route
+                    routeState.route = .stockDetail(selectedStock)
+                }
             }
             
         }
@@ -34,3 +41,4 @@ struct StockListView_Previews: PreviewProvider {
             .frame(maxWidth: 300)
     }
 }
+

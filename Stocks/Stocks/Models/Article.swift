@@ -4,7 +4,6 @@
 //
 //  Created by Seymen Nadir Elmas on 8.10.2023.
 //
-
 import Foundation
 
 struct ArticleResponse: Decodable {
@@ -42,4 +41,5 @@ struct Article: Decodable {
     }
     
 }
+
 

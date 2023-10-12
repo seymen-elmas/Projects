@@ -25,6 +25,7 @@ class Webservice {
         let stocks = try JSONDecoder().decode([Stock].self, from: data)
         return stocks
     }
+    
     func fetchArticlesBy(stock: Stock) async throws -> [Article] {
         
         let (data, response) = try await URLSession.shared.data(from: Constants.Urls.articlesBy(stock: stock))
@@ -38,7 +39,8 @@ class Webservice {
         return articleResponse.articles
         
     }
-    func fetchBusinessArticles() async throws -> [Article]{
+    
+    func fetchBusinessArticles() async throws -> [Article] {
         
         let (data, response) = try await URLSession.shared.data(from: Constants.Urls.businessArticles)
         

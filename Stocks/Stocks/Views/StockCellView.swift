@@ -7,9 +7,11 @@
 
 import SwiftUI
 
+
 struct StockCellView: View {
     
     let stock: StockViewModel
+    let onSelected: (StockViewModel) -> Void
     
     var body: some View {
         HStack {
@@ -28,7 +30,7 @@ struct StockCellView: View {
                     .fontWeight(.bold)
                 
                 Button {
-                    
+                    // action
                 } label: {
                     Text(stock.change)
                         .frame(maxWidth: .infinity, alignment: .trailing)
@@ -36,14 +38,17 @@ struct StockCellView: View {
                 }.frame(maxWidth: 60)
                      .background(changeColor(stock.change))
                     .clipShape(RoundedRectangle(cornerRadius: 6, style: .continuous))
-                
             }
+        }
+        .contentShape(Rectangle())
+        .onTapGesture {
+            onSelected(stock)
         }
     }
 }
 
 struct StockCellView_Previews: PreviewProvider {
     static var previews: some View {
-        StockCellView(stock: StockViewModel(stock: Stock(symbol: "APLE", description: "Apple", price: 162, change: "+2.42", historicalPrices: [])))
+        StockCellView(stock: StockViewModel(stock: Stock(symbol: "APLE", description: "Apple", price: 162, change: "+2.42", historicalPrices: [])), onSelected: { _ in })
     }
 }
