@@ -33,9 +33,7 @@ struct StockViewModel: Identifiable, Equatable {
         stock.change
     }
     
-    var historicalPrices: [Double] {
-        stock.historicalPrices
-    }
+   
     
     static func == (lhs: StockViewModel, rhs: StockViewModel) -> Bool {
         lhs.id == rhs.id

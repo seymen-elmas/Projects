@@ -23,7 +23,7 @@ struct StockDetailScreen: View {
                     ZStack {
                         StockGraphBackgroundView()
                         .overlay {
-                            LineChartView(values: stock.historicalPrices, labels: Constants.getYearlyLabels(), screenWidth: g.size.width/2)
+                            LineChartView(values: [stock.price], labels: Constants.getYearlyLabels(), screenWidth: g.size.width/2)
                     }.frame(maxWidth: .infinity, alignment: .center)
                 }
                     
@@ -47,7 +47,7 @@ struct StockDetailScreen: View {
 
 struct StockDetailScreen_Previews: PreviewProvider {
     static var previews: some View {
-        let stockVM = StockViewModel(stock: Stock(symbol: "AAPLE", description: "Apple", price: 184, change: "+2.42", historicalPrices: []))
+        let stockVM = StockViewModel(stock: Stock(symbol: "AAPLE", description: "Apple", price: 184, change: "+2.42"))
         return StockDetailScreen(stock: stockVM)
     }
 }
