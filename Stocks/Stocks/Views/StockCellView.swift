@@ -44,6 +44,6 @@ struct StockCellView: View {
 
 struct StockCellView_Previews: PreviewProvider {
     static var previews: some View {
-        StockCellView(stock: StockViewModel(stock: Stock(symbol: "APLE", description: "Apple", price: 162, change: "+2.42")))
+        StockCellView(stock: StockViewModel(stock: Stock(symbol: "APLE", description: "Apple", price: 162, change: "+2.42", historicalPrices: [])))
     }
 }

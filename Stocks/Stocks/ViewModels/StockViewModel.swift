@@ -32,6 +32,9 @@ struct StockViewModel: Identifiable {
     var change: String {
         stock.change
     }
+    var historicalPrices: [Double] {
+        stock.historicalPrices
+    }
     
    
     
