@@ -2,7 +2,7 @@
 //  Article.swift
 //  Stocks
 //
-//  Created by Seymen Nadir Elmas on 9.10.2023.
+//  Created by Seymen Nadir Elmas on 8.10.2023.
 //
 
 import Foundation
