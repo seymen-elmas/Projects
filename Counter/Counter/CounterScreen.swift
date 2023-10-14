@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct CounterScreen: View {
-    @State var count : Int = 0
+    @State var count = 0
     var body: some View {
+     
           VStack{
             ZStack{
                 Circle()
@@ -20,22 +21,25 @@ struct CounterScreen: View {
                     .frame(width: 200 ,height: 200,alignment: .center)
                 Text("\(count)")
             }
-            HStack{
-                Button("Play"){
-                    count = count + 1
-                
-                    
-                }
-                
-                Button("Reset"){
-                    count = 0
-                    
-                }
-                
-            }
+              HStack {
+                Button(action: {
+                    count -= 1
+                            })
+                  {
+                Image(systemName: "minus.circle")
+                        .font(.largeTitle)
+                          }
+            
+        Button(action: {count += 1})
+                  {
+              Image(systemName: "plus.circle")
+                        .font(.largeTitle)
+                             }
+                         }
+                   }
         }
     }
-}
+
 
 struct CounterScreen_Previews: PreviewProvider {
     static var previews: some View {
