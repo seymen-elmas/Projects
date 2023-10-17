@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct CounterScreen: View {
-    @State var count = 0
+    @State var count = 10
+    @State var runing = false
+    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     var body: some View {
      
           VStack{
@@ -18,23 +20,40 @@ struct CounterScreen: View {
                     .frame(width: 300,height: 300,alignment: .center)
                 Circle()
                     .foregroundColor(.blue)
-                    .frame(width: 200 ,height: 200,alignment: .center)
+                    .frame(width: 250 ,height: 250,alignment: .center)
+                    
                 Text("\(count)")
+                    .onReceive(timer){ _ in
+                        if count > 0 && runing{
+                            count -= 1
+                        } else {
+                            runing = false
+                        }
+                        
+                    }
             }
               HStack {
-                Button(action: {
-                    count -= 1
-                            })
-                  {
-                Image(systemName: "minus.circle")
-                        .font(.largeTitle)
-                          }
-            
-        Button(action: {count += 1})
-                  {
-              Image(systemName: "plus.circle")
-                        .font(.largeTitle)
-                             }
+                  Button("Start"){
+                      runing = true
+                      
+                  }
+                  .foregroundColor(.blue)
+                  .buttonStyle(.bordered)
+                  .tint(.red)
+                  Button("Pause"){
+                      runing = false
+                      
+                  }
+                  .foregroundColor(.blue)
+                  .buttonStyle(.bordered)
+                  .tint(.red)
+                  Button("Reset"){
+                      count = 10
+                      
+                  }
+                  .foregroundColor(.blue)
+                  .buttonStyle(.bordered)
+                  .tint(.red)
                          }
                    }
         }
