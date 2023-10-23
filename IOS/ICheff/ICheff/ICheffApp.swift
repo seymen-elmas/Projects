@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct ICheffApp: App {
+struct RecipeApp_iOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecipeCategoryListScreen()
         }
     }
 }
+
