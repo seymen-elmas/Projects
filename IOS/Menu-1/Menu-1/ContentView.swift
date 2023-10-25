@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     @State var Height:CGFloat = 200
     @State var Height2:CGFloat = 200
     let colors : [Color] = [.pink,.purple,.green,.blue,.orange,.red,.yellow,.cyan,.gray,.brown,.indigo]
@@ -23,8 +24,11 @@ struct ContentView: View {
                             .frame(height: Height2)
                             .foregroundColor(colors[item % colors.count].opacity(0.6))
                         Text("Lesson :\(item)")
+                        
                     }
+                  
                 }
+                
             }
             .padding(.horizontal,10)
         }
