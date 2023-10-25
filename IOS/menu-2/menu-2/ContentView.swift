@@ -11,9 +11,7 @@ struct ColorPair : Identifiable {
     var id = UUID()
     let color1 : Color
     let color2 : Color
-    
-    
-}
+    }
 
 
 struct ContentView: View {
