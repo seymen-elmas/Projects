@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView: View { 
     @StateObject private var vm = ProductListViewModel(webservice: Webservice())
     
     var body: some View {
