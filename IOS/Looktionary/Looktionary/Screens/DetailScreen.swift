@@ -10,7 +10,7 @@ import SwiftUI
 struct DetailScreen: View {
     var body: some View {
         VStack{
-            Image(systemName: "circle.fill")
+            Image(systemName: "circle")
                 .fixedSize(horizontal: true, vertical: true)
             Text("Your Word :" )
             Text("Meaning :")
