@@ -7,16 +7,6 @@
 
 import SwiftUI
 
-struct LoginFormError {
-    var email: String = ""
-    var password: String = ""
-    
-    mutating func clearForm() {
-        email = ""
-        password = ""
-    }
-}
-
 struct LoginView: View {
     
     @State private var email: String = ""

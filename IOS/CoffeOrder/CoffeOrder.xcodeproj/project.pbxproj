@@ -7,26 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B6289322AEE39A8001A10E3 /* HelloValidationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6289312AEE39A8001A10E3 /* HelloValidationApp.swift */; };
-		2B6289362AEE39AB001A10E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6289352AEE39AB001A10E3 /* Assets.xcassets */; };
-		2B6289392AEE39AB001A10E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6289382AEE39AB001A10E3 /* Preview Assets.xcassets */; };
-		2B6289412AEE4028001A10E3 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6289402AEE4028001A10E3 /* String+Extensions.swift */; };
-		2B6289452AEE8798001A10E3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6289442AEE8798001A10E3 /* LoginView.swift */; };
-		2B6289482AEE905F001A10E3 /* LoginFromError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6289472AEE905F001A10E3 /* LoginFromError.swift */; };
+		2B6C5F502AEFF3C60060650F /* CoffeOrderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C5F4F2AEFF3C60060650F /* CoffeOrderApp.swift */; };
+		2B6C5F522AEFF3C60060650F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C5F512AEFF3C60060650F /* ContentView.swift */; };
+		2B6C5F542AEFF3C80060650F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6C5F532AEFF3C80060650F /* Assets.xcassets */; };
+		2B6C5F572AEFF3C80060650F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6C5F562AEFF3C80060650F /* Preview Assets.xcassets */; };
+		2B6C5F5F2AEFF43E0060650F /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C5F5E2AEFF43E0060650F /* Webservice.swift */; };
+		2B6C5F622AEFF47F0060650F /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C5F612AEFF47F0060650F /* Order.swift */; };
+		2B6C5F642AF01C9E0060650F /* CoffeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C5F632AF01C9E0060650F /* CoffeModel.swift */; };
+		2B6C5F672AF025E80060650F /* OrderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C5F662AF025E80060650F /* OrderCellView.swift */; };
+		2B6C5F6A2AF026400060650F /* NumberFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C5F692AF026400060650F /* NumberFormatter+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2B62892E2AEE39A8001A10E3 /* HelloValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B6289312AEE39A8001A10E3 /* HelloValidationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloValidationApp.swift; sourceTree = "<group>"; };
-		2B6289352AEE39AB001A10E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2B6289382AEE39AB001A10E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2B6289402AEE4028001A10E3 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
-		2B6289442AEE8798001A10E3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		2B6289472AEE905F001A10E3 /* LoginFromError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFromError.swift; sourceTree = "<group>"; };
+		2B6C5F4C2AEFF3C60060650F /* CoffeOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6C5F4F2AEFF3C60060650F /* CoffeOrderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeOrderApp.swift; sourceTree = "<group>"; };
+		2B6C5F512AEFF3C60060650F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B6C5F532AEFF3C80060650F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B6C5F562AEFF3C80060650F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B6C5F5E2AEFF43E0060650F /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		2B6C5F612AEFF47F0060650F /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		2B6C5F632AF01C9E0060650F /* CoffeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeModel.swift; sourceTree = "<group>"; };
+		2B6C5F662AF025E80060650F /* OrderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCellView.swift; sourceTree = "<group>"; };
+		2B6C5F692AF026400060650F /* NumberFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B62892B2AEE39A8001A10E3 /* Frameworks */ = {
+		2B6C5F492AEFF3C60060650F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,95 +42,114 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B6289252AEE39A8001A10E3 = {
+		2B6C5F432AEFF3C60060650F = {
 			isa = PBXGroup;
 			children = (
-				2B6289302AEE39A8001A10E3 /* HelloValidation */,
-				2B62892F2AEE39A8001A10E3 /* Products */,
+				2B6C5F4E2AEFF3C60060650F /* CoffeOrder */,
+				2B6C5F4D2AEFF3C60060650F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2B62892F2AEE39A8001A10E3 /* Products */ = {
+		2B6C5F4D2AEFF3C60060650F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B62892E2AEE39A8001A10E3 /* HelloValidation.app */,
+				2B6C5F4C2AEFF3C60060650F /* CoffeOrder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B6289302AEE39A8001A10E3 /* HelloValidation */ = {
+		2B6C5F4E2AEFF3C60060650F /* CoffeOrder */ = {
 			isa = PBXGroup;
 			children = (
-				2B6289462AEE902F001A10E3 /* FormErrors */,
-				2B62893F2AEE4005001A10E3 /* Extensions */,
-				2B6289312AEE39A8001A10E3 /* HelloValidationApp.swift */,
-				2B6289442AEE8798001A10E3 /* LoginView.swift */,
-				2B6289352AEE39AB001A10E3 /* Assets.xcassets */,
-				2B6289372AEE39AB001A10E3 /* Preview Content */,
+				2B6C5F682AF0262A0060650F /* Extensions */,
+				2B6C5F652AF025BF0060650F /* Views */,
+				2B6C5F602AEFF4650060650F /* Models */,
+				2B6C5F5D2AEFF3F50060650F /* Services */,
+				2B6C5F4F2AEFF3C60060650F /* CoffeOrderApp.swift */,
+				2B6C5F512AEFF3C60060650F /* ContentView.swift */,
+				2B6C5F532AEFF3C80060650F /* Assets.xcassets */,
+				2B6C5F552AEFF3C80060650F /* Preview Content */,
 			);
-			path = HelloValidation;
+			path = CoffeOrder;
 			sourceTree = "<group>";
 		};
-		2B6289372AEE39AB001A10E3 /* Preview Content */ = {
+		2B6C5F552AEFF3C80060650F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				2B6289382AEE39AB001A10E3 /* Preview Assets.xcassets */,
+				2B6C5F562AEFF3C80060650F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2B62893F2AEE4005001A10E3 /* Extensions */ = {
+		2B6C5F5D2AEFF3F50060650F /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				2B6289402AEE4028001A10E3 /* String+Extensions.swift */,
+				2B6C5F5E2AEFF43E0060650F /* Webservice.swift */,
 			);
-			path = Extensions;
+			path = Services;
 			sourceTree = "<group>";
 		};
-		2B6289462AEE902F001A10E3 /* FormErrors */ = {
+		2B6C5F602AEFF4650060650F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2B6289472AEE905F001A10E3 /* LoginFromError.swift */,
+				2B6C5F612AEFF47F0060650F /* Order.swift */,
+				2B6C5F632AF01C9E0060650F /* CoffeModel.swift */,
 			);
-			path = FormErrors;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2B6C5F652AF025BF0060650F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B6C5F662AF025E80060650F /* OrderCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B6C5F682AF0262A0060650F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2B6C5F692AF026400060650F /* NumberFormatter+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B62892D2AEE39A8001A10E3 /* HelloValidation */ = {
+		2B6C5F4B2AEFF3C60060650F /* CoffeOrder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B62893C2AEE39AB001A10E3 /* Build configuration list for PBXNativeTarget "HelloValidation" */;
+			buildConfigurationList = 2B6C5F5A2AEFF3C80060650F /* Build configuration list for PBXNativeTarget "CoffeOrder" */;
 			buildPhases = (
-				2B62892A2AEE39A8001A10E3 /* Sources */,
-				2B62892B2AEE39A8001A10E3 /* Frameworks */,
-				2B62892C2AEE39A8001A10E3 /* Resources */,
+				2B6C5F482AEFF3C60060650F /* Sources */,
+				2B6C5F492AEFF3C60060650F /* Frameworks */,
+				2B6C5F4A2AEFF3C60060650F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HelloValidation;
-			productName = HelloValidation;
-			productReference = 2B62892E2AEE39A8001A10E3 /* HelloValidation.app */;
+			name = CoffeOrder;
+			productName = CoffeOrder;
+			productReference = 2B6C5F4C2AEFF3C60060650F /* CoffeOrder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2B6289262AEE39A8001A10E3 /* Project object */ = {
+		2B6C5F442AEFF3C60060650F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					2B62892D2AEE39A8001A10E3 = {
+					2B6C5F4B2AEFF3C60060650F = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 2B6289292AEE39A8001A10E3 /* Build configuration list for PBXProject "HelloValidation" */;
+			buildConfigurationList = 2B6C5F472AEFF3C60060650F /* Build configuration list for PBXProject "CoffeOrder" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,44 +157,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 2B6289252AEE39A8001A10E3;
-			productRefGroup = 2B62892F2AEE39A8001A10E3 /* Products */;
+			mainGroup = 2B6C5F432AEFF3C60060650F;
+			productRefGroup = 2B6C5F4D2AEFF3C60060650F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B62892D2AEE39A8001A10E3 /* HelloValidation */,
+				2B6C5F4B2AEFF3C60060650F /* CoffeOrder */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2B62892C2AEE39A8001A10E3 /* Resources */ = {
+		2B6C5F4A2AEFF3C60060650F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B6289392AEE39AB001A10E3 /* Preview Assets.xcassets in Resources */,
-				2B6289362AEE39AB001A10E3 /* Assets.xcassets in Resources */,
+				2B6C5F572AEFF3C80060650F /* Preview Assets.xcassets in Resources */,
+				2B6C5F542AEFF3C80060650F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2B62892A2AEE39A8001A10E3 /* Sources */ = {
+		2B6C5F482AEFF3C60060650F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B6289452AEE8798001A10E3 /* LoginView.swift in Sources */,
-				2B6289412AEE4028001A10E3 /* String+Extensions.swift in Sources */,
-				2B6289482AEE905F001A10E3 /* LoginFromError.swift in Sources */,
-				2B6289322AEE39A8001A10E3 /* HelloValidationApp.swift in Sources */,
+				2B6C5F642AF01C9E0060650F /* CoffeModel.swift in Sources */,
+				2B6C5F522AEFF3C60060650F /* ContentView.swift in Sources */,
+				2B6C5F6A2AF026400060650F /* NumberFormatter+Extensions.swift in Sources */,
+				2B6C5F502AEFF3C60060650F /* CoffeOrderApp.swift in Sources */,
+				2B6C5F622AEFF47F0060650F /* Order.swift in Sources */,
+				2B6C5F5F2AEFF43E0060650F /* Webservice.swift in Sources */,
+				2B6C5F672AF025E80060650F /* OrderCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2B62893A2AEE39AB001A10E3 /* Debug */ = {
+		2B6C5F582AEFF3C80060650F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +257,7 @@
 			};
 			name = Debug;
 		};
-		2B62893B2AEE39AB001A10E3 /* Release */ = {
+		2B6C5F592AEFF3C80060650F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -283,14 +311,14 @@
 			};
 			name = Release;
 		};
-		2B62893D2AEE39AB001A10E3 /* Debug */ = {
+		2B6C5F5B2AEFF3C80060650F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HelloValidation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CoffeOrder/Preview Content\"";
 				DEVELOPMENT_TEAM = 9N245B334X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -304,7 +332,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.seymenelmas.HelloValidation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seymenelmas.CoffeOrder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,14 +340,14 @@
 			};
 			name = Debug;
 		};
-		2B62893E2AEE39AB001A10E3 /* Release */ = {
+		2B6C5F5C2AEFF3C80060650F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HelloValidation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CoffeOrder/Preview Content\"";
 				DEVELOPMENT_TEAM = 9N245B334X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -333,7 +361,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.seymenelmas.HelloValidation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seymenelmas.CoffeOrder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -344,25 +372,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B6289292AEE39A8001A10E3 /* Build configuration list for PBXProject "HelloValidation" */ = {
+		2B6C5F472AEFF3C60060650F /* Build configuration list for PBXProject "CoffeOrder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B62893A2AEE39AB001A10E3 /* Debug */,
-				2B62893B2AEE39AB001A10E3 /* Release */,
+				2B6C5F582AEFF3C80060650F /* Debug */,
+				2B6C5F592AEFF3C80060650F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B62893C2AEE39AB001A10E3 /* Build configuration list for PBXNativeTarget "HelloValidation" */ = {
+		2B6C5F5A2AEFF3C80060650F /* Build configuration list for PBXNativeTarget "CoffeOrder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B62893D2AEE39AB001A10E3 /* Debug */,
-				2B62893E2AEE39AB001A10E3 /* Release */,
+				2B6C5F5B2AEFF3C80060650F /* Debug */,
+				2B6C5F5C2AEFF3C80060650F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2B6289262AEE39A8001A10E3 /* Project object */;
+	rootObject = 2B6C5F442AEFF3C60060650F /* Project object */;
 }
