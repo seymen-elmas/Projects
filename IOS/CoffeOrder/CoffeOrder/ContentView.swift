@@ -32,6 +32,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().environmentObject(CoffeeModel(webservice: Webservice()))
+        var config = Configuration()
+        ContentView().environmentObject(CoffeeModel(webservice: Webservice(baseurl: config.enviroment.baseUrl)))
     }
 }
