@@ -13,7 +13,7 @@ struct CoffeOrderApp: App {
     
     init() {
         var config = Configuration()
-        let webservice = Webservice(baseurl: config.enviroment.baseUrl)
+        let webservice = Webservice(baseURL: config.environment.baseURL)
         _model = StateObject(wrappedValue: CoffeeModel(webservice: webservice))
     }
     
@@ -23,4 +23,3 @@ struct CoffeOrderApp: App {
         }
     }
 }
-

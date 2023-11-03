@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B1F8B332AF5456800545659 /* OrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F8B322AF5456800545659 /* OrderDetailView.swift */; };
 		2B5428362AF24C0100C1D309 /* AppEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5428352AF24C0100C1D309 /* AppEnviroment.swift */; };
 		2B54283E2AF2560800C1D309 /* CoffeOrderE2EUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B54283D2AF2560800C1D309 /* CoffeOrderE2EUITests.swift */; };
+		2B5428472AF2666C00C1D309 /* AddCoffeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5428462AF2666C00C1D309 /* AddCoffeView.swift */; };
+		2B5428492AF26D6F00C1D309 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5428482AF26D6F00C1D309 /* View+Extensions.swift */; };
+		2B54284B2AF2815E00C1D309 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B54284A2AF2815E00C1D309 /* String+Extensions.swift */; };
 		2B6C5F502AEFF3C60060650F /* CoffeOrderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C5F4F2AEFF3C60060650F /* CoffeOrderApp.swift */; };
 		2B6C5F522AEFF3C60060650F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C5F512AEFF3C60060650F /* ContentView.swift */; };
 		2B6C5F542AEFF3C80060650F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6C5F532AEFF3C80060650F /* Assets.xcassets */; };
@@ -31,9 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B1F8B322AF5456800545659 /* OrderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailView.swift; sourceTree = "<group>"; };
 		2B5428352AF24C0100C1D309 /* AppEnviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnviroment.swift; sourceTree = "<group>"; };
 		2B54283B2AF2560800C1D309 /* CoffeOrderE2EUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeOrderE2EUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B54283D2AF2560800C1D309 /* CoffeOrderE2EUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeOrderE2EUITests.swift; sourceTree = "<group>"; };
+		2B5428462AF2666C00C1D309 /* AddCoffeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeView.swift; sourceTree = "<group>"; };
+		2B5428482AF26D6F00C1D309 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		2B54284A2AF2815E00C1D309 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		2B6C5F4C2AEFF3C60060650F /* CoffeOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6C5F4F2AEFF3C60060650F /* CoffeOrderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeOrderApp.swift; sourceTree = "<group>"; };
 		2B6C5F512AEFF3C60060650F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -143,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				2B6C5F662AF025E80060650F /* OrderCellView.swift */,
+				2B5428462AF2666C00C1D309 /* AddCoffeView.swift */,
+				2B1F8B322AF5456800545659 /* OrderDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				2B6C5F692AF026400060650F /* NumberFormatter+Extensions.swift */,
+				2B5428482AF26D6F00C1D309 /* View+Extensions.swift */,
+				2B54284A2AF2815E00C1D309 /* String+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -264,6 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B6C5F642AF01C9E0060650F /* CoffeModel.swift in Sources */,
+				2B54284B2AF2815E00C1D309 /* String+Extensions.swift in Sources */,
+				2B1F8B332AF5456800545659 /* OrderDetailView.swift in Sources */,
+				2B5428472AF2666C00C1D309 /* AddCoffeView.swift in Sources */,
+				2B5428492AF26D6F00C1D309 /* View+Extensions.swift in Sources */,
 				2B6C5F522AEFF3C60060650F /* ContentView.swift in Sources */,
 				2B6C5F6A2AF026400060650F /* NumberFormatter+Extensions.swift in Sources */,
 				2B6C5F502AEFF3C60060650F /* CoffeOrderApp.swift in Sources */,
