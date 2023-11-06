@@ -13,7 +13,7 @@ struct AddBudgetCategoryView: View {
     @State private var messages : [String] = []
     
     @Environment(\.managedObjectContext) private var viewContext
-    
+    @Environment(\.dismiss) private var dismiss
     var isValid :Bool {
         messages.removeAll()
         
@@ -32,6 +32,7 @@ struct AddBudgetCategoryView: View {
         //save context
         do{
             try viewContext.save()
+            dismiss()
         } catch {
             print(error.localizedDescription)
         }
@@ -58,7 +59,7 @@ struct AddBudgetCategoryView: View {
             }.toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button("Cancel"){
-                        
+                        dismiss()
                     }
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {

@@ -11,11 +11,27 @@ struct ContentView: View {
     @State private var isPresented :Bool = false
     @Environment(\.managedObjectContext) private var viewContext
     @FetchRequest(sortDescriptors: []) private var valletCategoryResutls : FetchedResults<ValletCategory>
+    var total : Double {
+        valletCategoryResutls.reduce(0) { result, valletCategory in
+            return result + valletCategory.total
+        }
+    }
+    private func deleteCategory(valletCategory : ValletCategory){
+        viewContext.delete(valletCategory)
+        do{
+            try viewContext.save()
+        } catch {
+            print(error)
+        }
+    }
     var body: some View {
         NavigationStack{
             VStack {
-               
-                ValletListView(valletCategoryResults: valletCategoryResutls)
+                Text(total as NSNumber , formatter: NumberFormatter.currency)
+                    .fontWeight(.bold)
+                    .font(.title2)
+                    
+                ValletListView(valletCategoryResults: valletCategoryResutls,onDeleteVallet: deleteCategory) 
             
             }.padding()
             .sheet(isPresented: $isPresented, content: {
@@ -35,6 +51,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environment(\.managedObjectContext, CoreDataManager.shared.viewContext)
     }
 }
