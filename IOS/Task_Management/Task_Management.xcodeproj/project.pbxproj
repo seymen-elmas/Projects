@@ -7,34 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B29342D2AF7B90500748677 /* MyValletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B29342C2AF7B90500748677 /* MyValletApp.swift */; };
-		2B29342F2AF7B90500748677 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B29342E2AF7B90500748677 /* ContentView.swift */; };
-		2B2934312AF7B90800748677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B2934302AF7B90800748677 /* Assets.xcassets */; };
-		2B2934342AF7B90800748677 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B2934332AF7B90800748677 /* Preview Assets.xcassets */; };
-		2B29343C2AF7B96E00748677 /* MyValletModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B29343A2AF7B96E00748677 /* MyValletModel.xcdatamodeld */; };
-		2B2934402AF7BB8C00748677 /* ValletCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B29343F2AF7BB8C00748677 /* ValletCategory+CoreDataClass.swift */; };
-		2B2934432AF7BCD500748677 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2934422AF7BCD500748677 /* CoreDataManager.swift */; };
-		2B2934462AF7C2D200748677 /* AddBudgetCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2934452AF7C2D200748677 /* AddBudgetCategoryView.swift */; };
-		2B2934492AF7CDF900748677 /* NumberFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2934482AF7CDF900748677 /* NumberFormatter+Extensions.swift */; };
-		2B29344B2AF808CE00748677 /* ValletListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B29344A2AF808CE00748677 /* ValletListView.swift */; };
+		2B1F7A5F2BCC105C005D16E9 /* Task_ManagementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F7A5E2BCC105C005D16E9 /* Task_ManagementApp.swift */; };
+		2B1F7A612BCC105C005D16E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F7A602BCC105C005D16E9 /* ContentView.swift */; };
+		2B1F7A632BCC105D005D16E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1F7A622BCC105D005D16E9 /* Assets.xcassets */; };
+		2B1F7A662BCC105D005D16E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1F7A652BCC105D005D16E9 /* Preview Assets.xcassets */; };
+		2B1F7A6E2BCC10A0005D16E9 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F7A6D2BCC10A0005D16E9 /* Task.swift */; };
+		2B1F7A712BCC143D005D16E9 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F7A702BCC143D005D16E9 /* View+Extension.swift */; };
+		2B1F7A732BCC145A005D16E9 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F7A722BCC145A005D16E9 /* Date+Extension.swift */; };
+		2B1F7A762BCC15A5005D16E9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F7A752BCC15A5005D16E9 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2B2934292AF7B90500748677 /* MyVallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B29342C2AF7B90500748677 /* MyValletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyValletApp.swift; sourceTree = "<group>"; };
-		2B29342E2AF7B90500748677 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2B2934302AF7B90800748677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2B2934332AF7B90800748677 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2B29343B2AF7B96E00748677 /* MyValletModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyValletModel.xcdatamodel; sourceTree = "<group>"; };
-		2B29343F2AF7BB8C00748677 /* ValletCategory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ValletCategory+CoreDataClass.swift"; sourceTree = "<group>"; };
-		2B2934422AF7BCD500748677 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
-		2B2934452AF7C2D200748677 /* AddBudgetCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetCategoryView.swift; sourceTree = "<group>"; };
-		2B2934482AF7CDF900748677 /* NumberFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Extensions.swift"; sourceTree = "<group>"; };
-		2B29344A2AF808CE00748677 /* ValletListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValletListView.swift; sourceTree = "<group>"; };
+		2B1F7A5B2BCC105C005D16E9 /* Task_Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task_Management.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1F7A5E2BCC105C005D16E9 /* Task_ManagementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_ManagementApp.swift; sourceTree = "<group>"; };
+		2B1F7A602BCC105C005D16E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B1F7A622BCC105D005D16E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B1F7A652BCC105D005D16E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B1F7A6D2BCC10A0005D16E9 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		2B1F7A702BCC143D005D16E9 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		2B1F7A722BCC145A005D16E9 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		2B1F7A752BCC15A5005D16E9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B2934262AF7B90500748677 /* Frameworks */ = {
+		2B1F7A582BCC105C005D16E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,123 +40,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B2934202AF7B90500748677 = {
+		2B1F7A522BCC105C005D16E9 = {
 			isa = PBXGroup;
 			children = (
-				2B29342B2AF7B90500748677 /* MyVallet */,
-				2B29342A2AF7B90500748677 /* Products */,
+				2B1F7A5D2BCC105C005D16E9 /* Task_Management */,
+				2B1F7A5C2BCC105C005D16E9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2B29342A2AF7B90500748677 /* Products */ = {
+		2B1F7A5C2BCC105C005D16E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B2934292AF7B90500748677 /* MyVallet.app */,
+				2B1F7A5B2BCC105C005D16E9 /* Task_Management.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B29342B2AF7B90500748677 /* MyVallet */ = {
+		2B1F7A5D2BCC105C005D16E9 /* Task_Management */ = {
 			isa = PBXGroup;
 			children = (
-				2B2934472AF7CDBD00748677 /* Extensions */,
-				2B2934442AF7C29C00748677 /* Views */,
-				2B2934412AF7BCB500748677 /* Managers */,
-				2B29343D2AF7BB2100748677 /* Models */,
-				2B29342C2AF7B90500748677 /* MyValletApp.swift */,
-				2B29342E2AF7B90500748677 /* ContentView.swift */,
-				2B2934302AF7B90800748677 /* Assets.xcassets */,
-				2B2934322AF7B90800748677 /* Preview Content */,
-				2B29343A2AF7B96E00748677 /* MyValletModel.xcdatamodeld */,
+				2B1F7A742BCC1594005D16E9 /* View */,
+				2B1F7A6F2BCC140E005D16E9 /* Helpers */,
+				2B1F7A6C2BCC107F005D16E9 /* Model */,
+				2B1F7A5E2BCC105C005D16E9 /* Task_ManagementApp.swift */,
+				2B1F7A602BCC105C005D16E9 /* ContentView.swift */,
+				2B1F7A622BCC105D005D16E9 /* Assets.xcassets */,
+				2B1F7A642BCC105D005D16E9 /* Preview Content */,
 			);
-			path = MyVallet;
+			path = Task_Management;
 			sourceTree = "<group>";
 		};
-		2B2934322AF7B90800748677 /* Preview Content */ = {
+		2B1F7A642BCC105D005D16E9 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				2B2934332AF7B90800748677 /* Preview Assets.xcassets */,
+				2B1F7A652BCC105D005D16E9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2B29343D2AF7BB2100748677 /* Models */ = {
+		2B1F7A6C2BCC107F005D16E9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2B29343E2AF7BB2800748677 /* Extensions */,
+				2B1F7A6D2BCC10A0005D16E9 /* Task.swift */,
 			);
-			path = Models;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		2B29343E2AF7BB2800748677 /* Extensions */ = {
+		2B1F7A6F2BCC140E005D16E9 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				2B29343F2AF7BB8C00748677 /* ValletCategory+CoreDataClass.swift */,
+				2B1F7A702BCC143D005D16E9 /* View+Extension.swift */,
+				2B1F7A722BCC145A005D16E9 /* Date+Extension.swift */,
 			);
-			path = Extensions;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
-		2B2934412AF7BCB500748677 /* Managers */ = {
+		2B1F7A742BCC1594005D16E9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2B2934422AF7BCD500748677 /* CoreDataManager.swift */,
+				2B1F7A752BCC15A5005D16E9 /* Home.swift */,
 			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		2B2934442AF7C29C00748677 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				2B2934452AF7C2D200748677 /* AddBudgetCategoryView.swift */,
-				2B29344A2AF808CE00748677 /* ValletListView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		2B2934472AF7CDBD00748677 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				2B2934482AF7CDF900748677 /* NumberFormatter+Extensions.swift */,
-			);
-			path = Extensions;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B2934282AF7B90500748677 /* MyVallet */ = {
+		2B1F7A5A2BCC105C005D16E9 /* Task_Management */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B2934372AF7B90800748677 /* Build configuration list for PBXNativeTarget "MyVallet" */;
+			buildConfigurationList = 2B1F7A692BCC105D005D16E9 /* Build configuration list for PBXNativeTarget "Task_Management" */;
 			buildPhases = (
-				2B2934252AF7B90500748677 /* Sources */,
-				2B2934262AF7B90500748677 /* Frameworks */,
-				2B2934272AF7B90500748677 /* Resources */,
+				2B1F7A572BCC105C005D16E9 /* Sources */,
+				2B1F7A582BCC105C005D16E9 /* Frameworks */,
+				2B1F7A592BCC105C005D16E9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyVallet;
-			productName = MyVallet;
-			productReference = 2B2934292AF7B90500748677 /* MyVallet.app */;
+			name = Task_Management;
+			productName = Task_Management;
+			productReference = 2B1F7A5B2BCC105C005D16E9 /* Task_Management.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2B2934212AF7B90500748677 /* Project object */ = {
+		2B1F7A532BCC105C005D16E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					2B2934282AF7B90500748677 = {
-						CreatedOnToolsVersion = 14.0.1;
+					2B1F7A5A2BCC105C005D16E9 = {
+						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = 2B2934242AF7B90500748677 /* Build configuration list for PBXProject "MyVallet" */;
+			buildConfigurationList = 2B1F7A562BCC105C005D16E9 /* Build configuration list for PBXProject "Task_Management" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -168,51 +146,50 @@
 				en,
 				Base,
 			);
-			mainGroup = 2B2934202AF7B90500748677;
-			productRefGroup = 2B29342A2AF7B90500748677 /* Products */;
+			mainGroup = 2B1F7A522BCC105C005D16E9;
+			productRefGroup = 2B1F7A5C2BCC105C005D16E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B2934282AF7B90500748677 /* MyVallet */,
+				2B1F7A5A2BCC105C005D16E9 /* Task_Management */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2B2934272AF7B90500748677 /* Resources */ = {
+		2B1F7A592BCC105C005D16E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B2934342AF7B90800748677 /* Preview Assets.xcassets in Resources */,
-				2B2934312AF7B90800748677 /* Assets.xcassets in Resources */,
+				2B1F7A662BCC105D005D16E9 /* Preview Assets.xcassets in Resources */,
+				2B1F7A632BCC105D005D16E9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2B2934252AF7B90500748677 /* Sources */ = {
+		2B1F7A572BCC105C005D16E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B29342F2AF7B90500748677 /* ContentView.swift in Sources */,
-				2B29342D2AF7B90500748677 /* MyValletApp.swift in Sources */,
-				2B2934492AF7CDF900748677 /* NumberFormatter+Extensions.swift in Sources */,
-				2B29343C2AF7B96E00748677 /* MyValletModel.xcdatamodeld in Sources */,
-				2B2934462AF7C2D200748677 /* AddBudgetCategoryView.swift in Sources */,
-				2B2934432AF7BCD500748677 /* CoreDataManager.swift in Sources */,
-				2B29344B2AF808CE00748677 /* ValletListView.swift in Sources */,
-				2B2934402AF7BB8C00748677 /* ValletCategory+CoreDataClass.swift in Sources */,
+				2B1F7A732BCC145A005D16E9 /* Date+Extension.swift in Sources */,
+				2B1F7A612BCC105C005D16E9 /* ContentView.swift in Sources */,
+				2B1F7A6E2BCC10A0005D16E9 /* Task.swift in Sources */,
+				2B1F7A712BCC143D005D16E9 /* View+Extension.swift in Sources */,
+				2B1F7A762BCC15A5005D16E9 /* Home.swift in Sources */,
+				2B1F7A5F2BCC105C005D16E9 /* Task_ManagementApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2B2934352AF7B90800748677 /* Debug */ = {
+		2B1F7A672BCC105D005D16E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -245,7 +222,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -259,20 +237,22 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		2B2934362AF7B90800748677 /* Release */ = {
+		2B1F7A682BCC105D005D16E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -305,7 +285,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -313,24 +294,24 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		2B2934382AF7B90800748677 /* Debug */ = {
+		2B1F7A6A2BCC105D005D16E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MyVallet/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Task_Management/Preview Content\"";
 				DEVELOPMENT_TEAM = 9N245B334X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -344,7 +325,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.seymenelmas.MyVallet;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seymenelmas.Task-Management";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -352,14 +333,14 @@
 			};
 			name = Debug;
 		};
-		2B2934392AF7B90800748677 /* Release */ = {
+		2B1F7A6B2BCC105D005D16E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MyVallet/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Task_Management/Preview Content\"";
 				DEVELOPMENT_TEAM = 9N245B334X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -373,7 +354,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.seymenelmas.MyVallet;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seymenelmas.Task-Management";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -384,38 +365,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B2934242AF7B90500748677 /* Build configuration list for PBXProject "MyVallet" */ = {
+		2B1F7A562BCC105C005D16E9 /* Build configuration list for PBXProject "Task_Management" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B2934352AF7B90800748677 /* Debug */,
-				2B2934362AF7B90800748677 /* Release */,
+				2B1F7A672BCC105D005D16E9 /* Debug */,
+				2B1F7A682BCC105D005D16E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B2934372AF7B90800748677 /* Build configuration list for PBXNativeTarget "MyVallet" */ = {
+		2B1F7A692BCC105D005D16E9 /* Build configuration list for PBXNativeTarget "Task_Management" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B2934382AF7B90800748677 /* Debug */,
-				2B2934392AF7B90800748677 /* Release */,
+				2B1F7A6A2BCC105D005D16E9 /* Debug */,
+				2B1F7A6B2BCC105D005D16E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		2B29343A2AF7B96E00748677 /* MyValletModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				2B29343B2AF7B96E00748677 /* MyValletModel.xcdatamodel */,
-			);
-			currentVersion = 2B29343B2AF7B96E00748677 /* MyValletModel.xcdatamodel */;
-			path = MyValletModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 2B2934212AF7B90500748677 /* Project object */;
+	rootObject = 2B1F7A532BCC105C005D16E9 /* Project object */;
 }
